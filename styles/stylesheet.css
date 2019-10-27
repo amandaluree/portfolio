@@ -1,0 +1,24 @@
+/* stylesheet for portfolio */
+* {
+  box-sizing: border-box;
+    }
+body
+{
+  background-color: grey;
+}
+.bright {
+  color: lime;
+}
+.dull {
+  color: orange;
+}
+img {
+width:30%;
+border:10px dashed purple;
+}
+.dogpic {
+  border:10px solid blue;
+}
+.travelpic {
+  border:10px solid green;
+}
