@@ -4,21 +4,86 @@
     }
 body
 {
-  background-color: grey;
+  background-color: white;
 }
-.bright {
-  color: lime;
+.homebody {
+    background-color: teal;
 }
-.dull {
-  color: orange;
+.travelbody {
+    background-color: green;
 }
+article {
+  background-color: lightgrey;
+}
+.infobox {
+  width: 50%;
+  border: solid black 2px;
+  padding: 45px;
+  margin: 20px;
+}
+
 img {
 width:30%;
-border:10px dashed purple;
+border:5px dashed purple;
 }
 .dogpic {
-  border:10px solid blue;
+  width:90%;
+  border:5px solid teal;
 }
 .travelpic {
-  border:10px solid green;
+  width:90%;
+  border:5px solid green;
+  align-items: center;
+}
+p {
+  font-size: 20px
+}
+.normal {
+  font-style: normal;
+}
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
+.textbox {
+  width: 80%;
+  border: solid black 2px;
+  padding: 50px;
+  margin: 20px;
+  background-color: lightgrey;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.bluetitle {
+  font-size: 40px;
+  color: teal;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+.purptitle {
+  font-size: 40px;
+  color: purple;
+}
+ul {
+  font-size: 20px
+}
+.jumplinks {
+  color: red;
+}
+.navbar {
+  color: orange;
+}
+ol {
+  font-size: 14px;
+}
+.boxlist {
+  width: 80%;
+  border: 10px solid black;
+  padding: 50px;
+  margin: 20px;
 }
