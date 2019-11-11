@@ -7,91 +7,137 @@
   href="styles/stylesheet.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-  <body class="homebody">
-    <header>Home - Classwork for 100A</header>
-    <nav>
-    <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about-me.html">About Me</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h2>What Projects Have I Done?</h2>
-      <p class="italic">Jump to a project below:</p>
-        <ul class="jumplinks">
-          <li><a href="#one">Lesson One</a></li>
-          <li></i><a href="#two">Lesson Two</a></li>
-          <li></i><a href="#three">Lesson Three</a></li>
+  <body>
+  <div class="top-header">
+    <header>
+          <h2 class="hero-text">Web Developer Portfolio</h2>
+            <h3 class="hero-subtext">Autumn 2019 - Classwork for HTML100A</h3>
+    </header>
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="index.html">Autumn 2019</a></li>
+          <li><a href="#">Winter 2020</a></li>
+          <li><a href="#">Spring 2020</a></li>
+          <li><a href="about-me.html">About Me</a></li>
         </ul>
-  </section>
-  <article class="infobox">
-      <h2 class="bluetitle" id="one">Lesson One</h2>
-        <p><a href="https://github.com/amandaluree/semantic-elements"><img src="images/husky-one.jpg" alt="a husky puppy" class="dogpic" height="300" ></a></p>
-            <ol class="boxlist">
-            <li>Write one paragraph summarizing what semantic elements are (max of 150 words)</li>
-            <li>Create a new git repository on your computer. Name it semantic-elements.</li>
-            <li>Inside the repo, code an HTML document. Name it index.html.</li>
-            <li>Use at least 15 different types of HTML elements (correctly!).</li>
-            <li>View your document in a browser to ensure it displays as you expect.</li>
-            <li>Push your code to GitHub as a new repository.</li>
-          </ol>
-    </article>
-    <article class="infobox">
-      <h2 class="bluetitle" id="two">Lesson Two</h2>
-        <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-two.jpg" alt="a beautiful husky" class="dogpic" height="300" ></a></p>
-            <ol class="boxlist">
-              <li>Read the articles listed on the Lesson 02 Overview page.</li>
+      </nav>
+    <main class="main">
+      <div class="content">
+          <section>
+        <h2>Lesson One</h2>
+          <p><a href="https://github.com/amandaluree/semantic-elements"><img src="images/husky-one.jpg" alt="a husky puppy" height="300" ></a></p>
+            <ol>
+              <li>Write one paragraph summarizing what semantic elements are (max of 150 words)</li>
+              <li>Create a new git repository on your computer. Name it semantic-elements.</li>
+             <li>Push your code to GitHub as a new repository.</li>
+            </ol>
+          </section>
+          <section>
+              <h2>Lesson Two</h2>
+        <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-two.jpg" alt="a beautiful husky" height="300" ></a></p>
+            <ol>
               <li>Code a semantically structured HTML document using the following
                 content sectioning.</li>
               <li>Create a new Git repository on your computer called “portfolio”.
                 This will be the home base for all future assignments, and the pages you start
                 coding here today will be progressively built upon for your final course project.</li>
-              <li>In this portfolio directory, create a simple, two page site. The pages
-                should link to each other in the main navigation. One of the pages should
-                be a list of projects that you have done, each with a title, small image,
-                and link to location of project. Be sure to include week 1's assignment!
-                I know you might not have a lot of projects to link to right now- just use
-                dummy data and links that go to “#” to flesh it out as necessary. The second
-                page can be whatever you like, though "About Me" is a nice default. Whichever
-                you would like to be the landing page for the site should be named index.html.</li>
-              <li>Use dummy content wherever you like on these pages (feel free to use
-                 <a href="https://lipsum.com/">Lorem Ipsum</a>. We'll be revisiting this project over
-                the next several weeks, and you can add more content as we go. The focus should be on
-                writing clean, semantic HTML. We will add CSS to this site starting next week. Please
-                do not do any styling this week.</li>
-              <li>There are no length requirements on these pages, but I expect each to have header,
-                article, and footer sections, with relevant, semantic content within each.
-                File names should be "kebab style" (lowercase, hyphens instead of spaces) and internal
-                links should be correct. As always, style matters. If you are including local images,
-                they should be inside a directory called "images" within the main project directory.</li>
-              <li>Remember to view your pages in different browsers before turning this in. If you've
-                made HTML errors that reduce the functionality of the page, you'll lose points, and
-                they're easy to catch by just viewing it in a browser! You should also remember to
-                always <a href="https://validator.w3.org/">validate your code</a>.</li>
-              <li>Use git to commit as you go along. Create a GitHub repository called 'portfolio'
-                and link it to your local repository. Push your work up to GitHub, and submit a link
-                to the GitHub repo for the assignment. Refer to Lessons 00 and 01 if you need a refresher
-                on git & GitHub.</li>
             </ol>
-      </article>
-      <article class="infobox">
-        <h2 class="bluetitle" id="three">Lesson Three</h2>
-          <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-three.jpg" alt="a sleepy husky" class="dogpic" height="300" ></a></p>
-            <ol class="boxlist">
+          </section>
+          <section>
+              <blockquote cite="Lorem Ipsum"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</p>
+              </blockquote>
+        <h2>Lesson Three</h2>
+          <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-three.jpg" alt="a sleepy husky" height="300" ></a></p>
+            <ol>
               <li>Create a directory called 'styles' and within it, stylesheet.css. In this
                 stylesheet, write some styling for your portfolio site. This file must have at
                 least 50 lines of code. Use your design skills or just experiment. This assignment
                 is about using CSS properly, not design.</li>
               <li>Use the <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a> to
                 check the quality of your code.</li>
-              <li>Include a link to the stylesheet in the head section of each of the html pages.
-                This would also be a good opportunity to add more content to these HTML pages.</li>
-              <li>Use git to commit your work as you go. Push your work up to your “portfolio” repository
-                on GitHub master branch, and submit a link to the GitHub repo for the assignment. I will
-                view the pages via your personal GitHub Pages URL and expect everything to be functional
-                (no broken images or links, etc). Refer to Lesson 00 and 01 if you need a refresher on Git & GitHub.</li>
             </ol>
-        </article>
-    <footer>Created by Amanda Green for HTML100A - Autumn 2019</footer>
+          </section>
+          <section>
+              <blockquote cite="Lorem Ipsum"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</p>
+              </blockquote>
+        <h2>Lesson Four</h2>
+          <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-four.jpg" alt="another husky" height="300" ></a></p>
+            <ol class="boxlist">
+              <li>Finish creating the code for the mockupLinks to an external site. we started in class. Getting your page to
+                appear just like the provided mockup is NOT AS IMPORTANT as writing valid, semantic code.</li>
+              <li>Create a second page for the site that mockup represents, build it with valid HTML and CSS, styling to match
+                theme of mockup, using your best judgement.</li>
+            </ol>
+          </section>
+          <section>
+              <blockquote cite="Lorem Ipsum"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</p>
+              </blockquote>
+        <h2>Lesson Five</h2>
+          <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-five.jpg" alt="some kind of husky" height="300" ></a></p>
+            <ol class="boxlist">
+              <li>Incorporate Google Fonts and Font Awesome in your portfolio site. Use these web fonts wherever and however you like to
+                enhance your design. I will expect to see links to Google Fonts and Font Awesome stylesheets in the head of your pages
+                (you can download and include the Font Awesome if you'd prefer), and at least one instance of using each in the HTML.</li>
+            </ol>
+          </section>
+          <section>
+              <blockquote cite="Lorem Ipsum"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor.</p>
+              </blockquote>
+        <h2>Lesson Six</h2>
+          <p><a href="https://github.com/amandaluree/portfolio"><img src="images/husky-six.jpg" alt="a husky" height="300" ></a></p>
+            <ol class="boxlist">
+              <li>Update portfolio project styling to use at least 3 CSS transitions and/or nth-child selectors.</li>
+              <li>You can integrate these into your design however you like.</li>
+            </ol>
+          </section>
+              </div>
+        <aside>
+            <h3>QUICK LINKS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p><a href="#">Find out more</a></p>
+            <h3>Next Class Information</h3>
+                <img src="images/uw-logo-pce.png" height=100px; alt="university of washington logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p><a href="https://www.pce.uw.edu/courses/javascript-and-responsive-design">Book Now</a></p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p><a href="https://www.pce.uw.edu/courses/javascript-and-responsive-design">Book Now</a></p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p><a href="https://www.pce.uw.edu/courses/javascript-and-responsive-design">Book Now</a></p>
+        </aside>
+    </main>
+    <footer>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul class="flex-footer">
+              <li><a href="#">Footer link 1</a></li>
+              <li><a href="#">Footer link 2</a></li>
+              <li><a href="#">Footer link 3</a></li>
+              <li><a href="#">Footer link 4</a></li>
+            </ul>
+            <p>	&copy; amandaluree | HTML100A - Autumn 2019</p>
+    </footer>
+  </div>
   </body>
 </html>
