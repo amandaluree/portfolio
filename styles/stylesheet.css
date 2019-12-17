@@ -132,8 +132,7 @@ nav {
 .main-wide-img {
   width: 100%;
   padding: 10px;
-  background-color: #85754d;
-  transition: transform .2s;
+  transition: .2s;
   margin: 0 auto;
 }
 
@@ -143,7 +142,6 @@ nav {
 
 .nav-bar {
   background-color: #e8e9eb;
-  flex-flow: space-around;
 }
 .nav-links {
   display: flex;
