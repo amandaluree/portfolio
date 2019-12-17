@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css"
+  href="styles/stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand%7CShadows+Into+Light%7CYeon+Sung&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/458e62f057.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div class="top-header">
+    <header>
+          <h2 class="hero-text">Web Developer Portfolio</h2>
+            <h3 class="hero-subtext">amandaluree</h3>
+    </header>
+      <nav class="nav-bar">
+        <ul class="nav-links">
+          <li><a href="index.html">Autumn 2019</a></li>
+          <li><a href="#">Winter 2020</a></li>
+          <li><a href="#">Spring 2020</a></li>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    <main class="main">
+      <div class="content">
+        <section>
+      <h2 class="first-header">Want to contact me?</h2>
+            <p>Fill out the form below to get ahold of me, and I'll be sure to return
+            your inquiry as soon as possible. Thanks!</p>
+              <hr>
+        </section>
+          <section>
+            <h2>Contact Form</h2>
+            <div class="container">
+              <form action="action_page.php" method="GET">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your email.." required>
+
+                <label for="date">Today's Date</label>
+                <input type="date" name="date" id="date" placeholder="Today's date.." required>
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="usa">USA</option>
+                  <option value="uk">UK</option>
+                  <option value="canada">Canada</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+                <input type="submit" value="Submit">
+
+              </form>
+            </div>
+          </section>
+              </div>
+    </main>
+    <footer>
+            <ul class="flex-footer">
+              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <p>	&copy; amandaluree | HTML100A - Autumn 2019</p>
+    </footer>
+  </div>
+  </body>
+</html>
